@@ -1,12 +1,11 @@
 import { Outlet } from "react-router-dom";
 import MainNav from "../components/MainNav";
-import classes from "./Root.module.css";
 
 function Root() {
   return (
     <div>
         <MainNav/>
-        <main className={classes.main}>
+        <main>
             <Outlet />
         </main>
     </div>

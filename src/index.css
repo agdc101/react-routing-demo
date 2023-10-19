@@ -48,3 +48,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+.content {
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+  width: 100%;
+  text-align: center;
+}
