@@ -10,8 +10,8 @@ function HomePage() {
   return (
     <div>
         <h1>Home Ash</h1>
-        <Link to="/products">Products</Link>
-        <button onClick={navigateHandler}>Products</button>
+        <Link to="products">Products</Link>
+        {/* <button onClick={navigateHandler}>Products</button> */}
     </div>
   );
 }
